@@ -6,9 +6,23 @@ markdown[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](h
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 
+
 # su3-gauge-gnn
 PyTorch implementation of SU(3) Gauge-Covariant Resonance Graph Neural Networks.
+## Quickstart
+```python
+from su3_gauge import SU3GaugeBlock
 
+block = SU3GaugeBlock(in_channels=8, out_channels=16, num_edges=100)
+Z_out, U, diag = block(Z, edge_index)
+
+#### **2. Добавь секцию "Key Idea" с 1 формулой**
+Это зацепит физиков и ML-шников.
+```markdown
+## Key Idea
+Node states: $Z_i \in \mathbb{C}^{F \times 3}$ transform in the fundamental rep of SU(3).
+Edge transport: $U_{ij} = \text{Cayley}(i \phi_{ij}^a T_a) \in SU(3)$
+Resonance: $R_{ij} = \frac{|\langle U_{ij} Z_j, Z_i \rangle|}{\|U_{ij} Z_j\| \|Z_i\|}$
 # su3-gauge-gnn
 
 A PyTorch implementation of SU(3) Gauge-Covariant Resonance Graph Neural Networks.
