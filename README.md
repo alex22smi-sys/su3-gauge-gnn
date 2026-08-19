@@ -8,12 +8,7 @@ markdown[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](h
 
 # su3-gauge-gnn
 PyTorch implementation of SU(3) Gauge-Covariant Resonance Graph Neural Networks.
-markdown## Quickstart
-```python
-from su3_gauge import SU3GaugeBlock
 
-block = SU3GaugeBlock(in_channels=8, out_channels=16, num_edges=100)
-Z_out, U, diag = block(Z, edge_index)
 # su3-gauge-gnn
 
 A PyTorch implementation of SU(3) Gauge-Covariant Resonance Graph Neural Networks.
