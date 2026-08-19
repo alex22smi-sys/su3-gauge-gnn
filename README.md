@@ -1,3 +1,13 @@
+
+markdown[![arXiv](https://img.shields.io/badge/arXiv-coming%20soon-b31b1b.svg)](https://arxiv.org/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000.svg)](https://github.com/psf/black)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+markdown[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
+
+# su3-gauge-gnn
+PyTorch implementation of SU(3) Gauge-Covariant Resonance Graph Neural Networks.
 # su3-gauge-gnn
 
 A PyTorch implementation of SU(3) Gauge-Covariant Resonance Graph Neural Networks.
